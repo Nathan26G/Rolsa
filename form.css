@@ -1,0 +1,64 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0d2502;
+}
+body{
+    background-image: url('images/pexels-felixmittermeier-957024.jpg');
+    background-size: cover;
+}
+form{
+
+    justify-self: center;
+    padding: 100px;
+    background-color: #2da122;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding-block: 50px;
+    div{
+        margin: 5px;
+        label{
+            color: #012231;
+            font-size: 20px;
+        }
+        input{
+            background-color: #7ed17e;
+            border: #045204;
+            padding: 5px;
+            width: 300px;
+        }
+    }
+    img{
+        width: 300px;
+        margin-bottom: -50;
+        margin-top: -50;
+    }
+    button{
+        padding: 5px;
+        background-color: #0b7a3d;
+        color: white;
+        border: solid #0b7a3d;
+        border-radius: 15px;
+        transition: ease 0.3s;
+    }
+    button:hover{
+        transform: scale(1.15);
+        background-color:rgb(0, 70, 3);
+        border-color: rgb(0, 70, 3);
+    }
+
+    h2{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+        justify-content: center;
+    }
+    a{
+        color: rgb(17, 0, 255);
+    }
+
+    b{
+        color: red;
+    }
+    
+}
